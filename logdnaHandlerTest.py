@@ -11,15 +11,15 @@ from logdna import LogDNAHandler
 
 current_milli_time = lambda: int(round(time.time() * 1000))
 
-key = '< YOUR INGESTION KEY HERE >'
+key = 'b185a9b8291d007bac2cf74ec0814d4f'
 log = logging.getLogger('logdna')
 log.setLevel(logging.INFO)
 
 options = {
-    'hostname': 'localhost',
-    'url': 'http://localhost:8081',
-    'ip': '10.0.1.1',
-    'mac': 'C0:FF:EE:C0:FF:EE'
+    'hostname': 'DESKTOP-64H9R4H',
+#    'url': 'http://localhost:8081',
+#    'ip': '10.0.1.1',
+#    'mac': 'C0:FF:EE:C0:FF:EE'
 }
 
 expectedLines = []
